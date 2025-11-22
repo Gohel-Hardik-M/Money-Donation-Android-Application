@@ -1,90 +1,73 @@
 # Money-Donation-Android-Application
 
-📱 Donation App – Android Project
+# 📱 Donation App – Android Project
 
-A mobile application built for seamless charitable donations.
-Users can browse campaigns, make secure payments, and track their donation history—all inside one app.
+A clean and user-friendly Android application designed to simplify charitable donations.  
+Users can browse campaigns, donate securely, and track all their donations in one place.
 
-🚀 Features
+---
 
-🔐 User Authentication
+## ✨ Features
 
-User Registration
+### 🔐 Authentication
+- User Login / Signup  
+- Secure Session Handling  
+- Logout  
+- Forgot Password (Email / OTP)
 
-Login
+### 📢 Notifications
+- Real-time push notifications  
+- Campaign updates  
+- Donation confirmation alerts  
 
-Logout
+### 💸 Payments
+- Donate to any campaign  
+- UPI / Wallet / Razorpay payment integration  
+- Secure and fast checkout  
 
-Secure Session Management
+### 🧾 Payment & Donation History
+- View past donations  
+- Track transaction IDs, amounts, dates  
+- (Optional) Download Donation Receipt  
 
-Forgot Password (Email/OTP Based)
+### 🎯 Campaigns
+- Browse all active campaigns  
+- View campaign details  
+- Donate directly from campaign page  
 
-📢 Notifications
+---
 
-Push Notifications for campaign updates
+## 🛠️ Tech Stack
 
-Donation confirmation alerts
+**Mobile App**
+- Android (Java/Kotlin)  
+- XML Layouts  
+- Android Jetpack  
+  - ViewModel  
+  - LiveData / StateFlow  
+  - Navigation Component  
 
-General announcements
+**Backend (if used)**
+- Firebase Authentication  
+- Firebase Firestore / Realtime Database  
+- Firebase Cloud Messaging  
+- Razorpay / UPI Intent  
 
-💸 Payments
+---
 
-Make donations to any campaign
+## 📂 Project Structure
 
-Integrated payment gateway (UPI / Razorpay / Wallets etc.)
-
-Secure transaction handling
-
-🧾 Payment & Donation History
-
-View list of all completed donations
-
-Transaction IDs, amounts, timestamps
-
-Download/Share receipt (if implemented)
-
-🎯 Campaign Management (User Side)
-
-Browse all active campaigns
-
-View campaign details, images, and goals
-
-Donate directly from campaign screen
-
-🏗️ Tech Stack
-Frontend (Mobile):
-
-Android (Java/Kotlin)
-
-XML layouts
-
-Android Jetpack Components
-
-ViewModel
-
-LiveData / StateFlow
-
-Navigation Component
-
-Backend (If used):
-
-Firebase Authentication
-
-Firebase Firestore / Realtime Database
-
-Firebase Cloud Messaging
-
-Razorpay / UPI Intent for payments
-
-📂 Project Structure
+```bash
 app/
  ├── activities/
+ ├── fragments/
  ├── adapters/
  ├── models/
- ├── fragments/
  ├── utils/
  ├── viewmodels/
  └── services/
+
+
 
 🛠️ Setup Instructions
 
