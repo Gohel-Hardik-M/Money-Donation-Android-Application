@@ -6,6 +6,7 @@ A mobile application built for seamless charitable donations.
 Users can browse campaigns, make secure payments, and track their donation history—all inside one app.
 
 🚀 Features
+
 🔐 User Authentication
 
 User Registration
