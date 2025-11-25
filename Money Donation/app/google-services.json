@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "73234343562",
+    "project_id": "donate-ease-fef41",
+    "storage_bucket": "donate-ease-fef41.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:73234343562:android:b6d8613a15cc25a6032f73",
+        "android_client_info": {
+          "package_name": "com.example.moneydonation"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdgAGj7RHWu1IO6l6NrRbNij7gnog_lLg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

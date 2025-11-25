@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/light_green"
+	android:fillViewport="true">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:padding="24dp">
+
+		<!-- App Logo with Gradient Background -->
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:gravity="center"
+			android:layout_marginBottom="32dp"
+			android:layout_marginTop="32dp">
+
+			<ImageView
+				android:layout_width="80dp"
+				android:layout_height="80dp"
+				android:src="@drawable/ic_donate_heart"
+				android:background="@drawable/logo_gradient_background"
+				android:padding="16dp"
+				android:layout_marginBottom="16dp" />
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/app_name"
+				android:textSize="24sp"
+				android:textStyle="bold"
+				android:textColor="@color/primary_green"
+				android:layout_marginBottom="8dp" />
+
+		</LinearLayout>
+
+		<!-- Title -->
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/create_your_account"
+			android:textColor="@color/text_primary"
+			android:textSize="28sp"
+			android:textStyle="bold"
+			android:layout_marginBottom="8dp" />
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/join_us_today"
+			android:textColor="@color/text_secondary"
+			android:textSize="16sp"
+			android:layout_marginBottom="32dp" />
+
+		<!-- Registration Form -->
+		<com.google.android.material.textfield.TextInputLayout
+			android:id="@+id/tilFullName"
+			style="@style/CustomEditText"
+			app:hintEnabled="false"
+			app:hintTextAppearance="@style/BoldHintText"
+			app:hintTextColor="@android:color/black">
+
+			<com.google.android.material.textfield.TextInputEditText
+				android:id="@+id/etFullName"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:hint="@string/full_name"
+				android:textColor="@android:color/black"
+				android:textColorHint="@android:color/black"
+				android:inputType="textPersonName" />
+
+		</com.google.android.material.textfield.TextInputLayout>
+
+		<com.google.android.material.textfield.TextInputLayout
+			android:id="@+id/tilEmail"
+			style="@style/CustomEditText"
+			app:hintEnabled="false"
+			app:hintTextAppearance="@style/BoldHintText"
+			app:hintTextColor="@android:color/black">
+
+			<com.google.android.material.textfield.TextInputEditText
+				android:id="@+id/etEmail"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:hint="@string/email"
+				android:textColor="@android:color/black"
+				android:textColorHint="@android:color/black"
+				android:inputType="textEmailAddress" />
+
+		</com.google.android.material.textfield.TextInputLayout>
+
+		<com.google.android.material.textfield.TextInputLayout
+			android:id="@+id/tilPassword"
+			style="@style/CustomEditText"
+			app:hintEnabled="false"
+			app:hintTextAppearance="@style/BoldHintText"
+			app:hintTextColor="@android:color/black"
+			app:endIconMode="password_toggle">
+
+			<com.google.android.material.textfield.TextInputEditText
+				android:id="@+id/etPassword"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:hint="@string/password"
+				android:textColor="@android:color/black"
+				android:textColorHint="@android:color/black"
+				android:inputType="textPassword" />
+
+		</com.google.android.material.textfield.TextInputLayout>
+
+		<com.google.android.material.textfield.TextInputLayout
+			android:id="@+id/tilConfirmPassword"
+			style="@style/CustomEditText"
+			app:hintEnabled="false"
+			app:hintTextAppearance="@style/BoldHintText"
+			app:hintTextColor="@android:color/black"
+			app:endIconMode="password_toggle">
+
+			<com.google.android.material.textfield.TextInputEditText
+				android:id="@+id/etConfirmPassword"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:hint="@string/confirm_password"
+				android:textColor="@android:color/black"
+				android:textColorHint="@android:color/black"
+				android:inputType="textPassword" />
+
+		</com.google.android.material.textfield.TextInputLayout>
+
+		<com.google.android.material.button.MaterialButton
+			android:id="@+id/btnRegister"
+			style="@style/CustomButton"
+			android:text="@string/register"
+			android:layout_marginBottom="24dp" />
+
+		<!-- Sign In Link -->
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:orientation="horizontal">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/already_have_account"
+				android:textColor="@color/text_secondary"
+				android:textSize="14sp" />
+
+			<TextView
+				android:id="@+id/tvLogin"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/login"
+				android:textColor="@color/primary_green"
+				android:textSize="14sp"
+				android:textStyle="bold"
+				android:background="?android:attr/selectableItemBackground"
+				android:padding="4dp" />
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- App Information -->
+	<string name="app_name">Donate Ease</string>
+	<string name="empowering_through_donations">Empowering through Donations</string>
+	
+	<!-- Authentication -->
+	<string name="welcome_back">Welcome Back!</string>
+	<string name="sign_in_to_continue">Sign in to continue to your account</string>
+	<string name="create_your_account">Create your account</string>
+	<string name="join_us_today">Join us today and make a difference!</string>
+	<string name="forgot_password">Forgot Password</string>
+	<string name="enter_email_reset">Enter your email to receive a reset link</string>
+	<string name="enter_otp">Enter OTP</string>
+	<string name="verify_6_digit_code">Verify the 6-digit code sent to your email</string>
+	<string name="change_password">Change Password</string>
+	<string name="create_new_password">Create a new secure password</string>
+	
+	<!-- Form Fields -->
+	<string name="email">Email</string>
+	<string name="password">Password</string>
+	<string name="full_name">Full Name</string>
+	<string name="confirm_password">Confirm Password</string>
+	<string name="new_password">New password</string>
+	<string name="otp_code">OTP Code</string>
+	
+	<!-- Buttons -->
+	<string name="login">Login</string>
+	<string name="register">Register</string>
+	<string name="send_otp">Send OTP</string>
+	<string name="verify_continue">Verify &amp; Continue</string>
+	<string name="reset">Reset</string>
+	
+	<!-- Placeholders -->
+	<string name="enter_your_email">Enter your email</string>
+	<string name="enter_your_password">Enter your password</string>
+	<string name="enter_your_name">Enter your name</string>
+	<string name="re_enter_password">Re-enter password</string>
+	<string name="enter_new_password">Enter new password</string>
+	<string name="enter_6_digit_code">00 32</string>
+	
+	<!-- Navigation -->
+	<string name="dont_have_account">Don\'t have an account? </string>
+	<string name="already_have_account">Already have an account? </string>
+	<string name="remember_password">Remember your password? </string>
+	<string name="sign_up">Sign Up</string>
+	<string name="back_to_login">Back To Login</string>
+	<string name="forgot_password_link">Forgot password?</string>
+	<string name="resend_code">Resend Code</string>
+	
+	<!-- OTP Messages -->
+	<string name="otp_message_prefix">OTP message sent to</string>
+	<string name="otp_message_suffix">Don\'t share with anyone</string>
+	
+	<!-- Money Donation App -->
+	<string name="money_donation">Money donation</string>
+	<string name="welcome">Welcome!</string>
+	<string name="quote_text">No one has ever become poor by giving.</string>
+	<string name="search_campaigns">🔍 search campaigns...</string>
+	<string name="quick_tools">Quick Tools</string>
+	<string name="notification">Notification</string>
+	<string name="donation">Donation</string>
+	<string name="browse_campaigns">BROWSE CAMPAIGNS</string>
+	<string name="transparency_trust">TRANSPARENCY &amp; TRUST</string>
+	<string name="books_for_every_child">books for every child</string>
+	<string name="campaign_description">Providing learning kits for under-resourced schools in rural areas.</string>
+	<string name="raised">raised</string>
+	<string name="goal">goal</string>
+	<string name="view_details">View details</string>
+	<string name="donate">Donate</string>
+	<string name="total_funds_raised">Total funds raised</string>
+	<string name="funds_distribution">funds distribution</string>
+	<string name="recent_transactions">Recent Transactions</string>
+	<string name="choose_amount">Choose amount</string>
+	<string name="custom_amount">Custom Amount</string>
+	<string name="payment_method">Payment Method</string>
+	<string name="card">Card</string>
+	<string name="wallet">Wallet</string>
+	<string name="platform_fee">Platform fee</string>
+	<string name="confirm_pay">Confirm &amp; pay</string>
+	<string name="account">Account</string>
+	<string name="profile">Profile</string>
+	<string name="name_email_phone">Name, email, phone</string>
+	<string name="preference">Preference</string>
+	<string name="sign_out">Sign out</string>
+	<string name="edit_profile">Edit Profile</string>
+	<string name="payment_history">Payment History</string>
+	<string name="history">History</string>
+	<string name="manage_notification">Manage Notification</string>
+	<string name="save">Save</string>
+	<string name="name">Name</string>
+	<string name="city">City</string>
+	<string name="mobile_no">Mobile no.</string>
+	<string name="change_name">Change a name</string>
+	<string name="change_email">Change a email</string>
+	<string name="change_city">Change a City</string>
+	<string name="change_mobile">Change a mobile no</string>
+	<string name="otp">OTP</string>
+</resources>

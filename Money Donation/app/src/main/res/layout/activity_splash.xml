@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/light_green"
+	android:orientation="vertical"
+	android:gravity="center"
+	android:padding="24dp"
+	tools:context=".SplashActivity">
+
+	<!-- Dark Card Container (fixed 360 x 484) -->
+	<com.google.android.material.card.MaterialCardView
+		android:layout_width="360dp"
+		android:layout_height="484dp"
+		app:cardCornerRadius="16dp"
+		app:cardElevation="8dp"
+		app:cardUseCompatPadding="true"
+		app:cardBackgroundColor="@color/text_primary">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical"
+			android:gravity="center"
+			android:padding="32dp">
+
+			<!-- App Logo with Gradient Background -->
+
+			<!-- App Name -->
+			<ImageView
+				android:layout_width="80dp"
+				android:layout_height="80dp"
+				android:layout_marginBottom="24dp"
+				android:background="@drawable/logo_gradient_background"
+				android:padding="16dp"
+				android:src="@drawable/ic_donate_heart" />
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/app_name"
+				android:textSize="24sp"
+				android:textStyle="bold"
+				android:textColor="@color/white"
+				android:layout_marginBottom="8dp" />
+
+			<!-- Tagline -->
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/empowering_through_donations"
+				android:textSize="14sp"
+				android:textColor="@color/white"
+				android:alpha="0.9"
+				android:layout_marginBottom="32dp" />
+
+			<!-- Navigation Dots -->
+			<LinearLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal">
+
+				<View
+					android:layout_width="8dp"
+					android:layout_height="8dp"
+					android:background="@drawable/dot_indicator_active"
+					android:layout_margin="4dp" />
+
+				<View
+					android:layout_width="8dp"
+					android:layout_height="8dp"
+					android:background="@drawable/dot_indicator"
+					android:layout_margin="4dp" />
+
+				<View
+					android:layout_width="8dp"
+					android:layout_height="8dp"
+					android:background="@drawable/dot_indicator"
+					android:layout_margin="4dp" />
+
+			</LinearLayout>
+
+
+
+		</LinearLayout>
+
+	</com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>
